@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "control_flows",
+    "functions",
+    "guessing_game",
+    "hello_cargo",
+    "ownerships",
+    "variables",
+]
