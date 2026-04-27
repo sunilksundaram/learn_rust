@@ -13,6 +13,11 @@ target
 # Contains mutation testing data
 **/mutants.out*/
 
+# Remove for Learning Repos to filter out clutter
+# Keep when creating an executable or an App - so that all using it 
+# uses the same dependencies including CI/CD.
+Cargo.lock
+
 # RustRover
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
